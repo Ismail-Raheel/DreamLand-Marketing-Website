@@ -1,0 +1,776 @@
+<html>
+<head>
+
+<title>Dream Land</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../BootsStrap 5 File/bootstrap.css">
+<script src="../BootsStrap 5 File/bootstrap.js"></script>
+<script src="../BootsStrap 5 File/popper.min.js"></script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+<link rel="icon" href="Images/web-logo.png">
+<link rel="stylesheet" href="../Css.css">
+
+
+
+
+<!--------------------------------------------------animation------------------------->
+<!--------------------------------------------------animation------------------------->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+  wow = new WOW(
+    {
+        boxClass:     'wow',      // default
+        animateClass: 'animated', // change this if you are not using animate.css
+        offset:       0,          // default
+        mobile:       true,       // keep it on mobile
+        live:         true        // track if element updates
+      }
+    )
+   wow.init();
+</script>
+
+
+<!--------------------------------------------------animation------------------------->
+<!--------------------------------------------------animation------------------------->
+
+
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+
+<script>
+$(document).ready(function() {
+$("#btn").click(function(){
+$("#one").fadeToggle('slow');
+
+});
+});
+
+</script>
+
+
+
+
+<style>
+
+
+
+.dark-mode #lake-city-card{background-color:#191917;}
+
+
+.dark-mode {background-color:#191917; color:#FFF;}
+
+
+
+
+
+
+
+
+
+
+
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+	cursor:pointer;
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.hovereffect a, .hovereffect p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+					<!--------------------------HEADER------------------>
+     			 	<!--------------------------HEADER------------------>
+    			 	<!--------------------------HEADER------------------>
+
+
+
+<div class="container-fluid  bg-gradient">
+<div class="row align-items-start bg-gradient" id="top">
+   
+    
+    		
+<div class=" col-xl-3 col-lg-5  col-md-5 col-sm-5 col-4">
+<div class="d-flex">
+<a href="#" class="social-icon1"><img src="../New folder/facebok.gif" style="width:30px;height:30px;"> </a>
+<a href="#" class="social-icon1"><img src="../New folder/twitter.gif" style="width:30px;height:30px;"> </a>
+<a href="#" class="social-icon1"><img src="../New folder/-instagram.gif" style="width:30px;height:30px;"> </a>
+<a href="#" class="social-icon1"><img src="../New folder/snapechart (2).gif" style="width:30px;height:30px;"> </a>
+</div>
+</div>
+	
+	
+    		
+<div class="col-xl-3 col-lg-7 col-md-7 col-sm-7 col-5">
+<a href="#" id="span"class="social-icon2"><i class="fas fa-envelope" id="head-footer-icon"></i>  &nbsp;arain@dreamland.com</a>
+</div>
+
+
+<div class="col-xl-3  col-lg-5  col-md-5 col-sm-5 col-4 ">
+<a href="#" id="span"class="social-icon3"> <i class="fas fa-phone" id="head-footer-icon"></i> &nbsp; +92-3348060318 </a>
+</div>
+
+<div class="col-xl-3 col-lg-7 col-md-7 col-sm-7 col-5">
+<a href="#" id="span"class="social-icon4"> <i class="fas fa-map-marker-alt" id="head-footer-icon"></i>  &nbsp; B-2 Executive Suites</a>
+</div>
+ 
+
+
+</div>
+</div>
+			           
+
+		<!------------------------NAVBAR-----DROPDOWN----------------->
+			<!------------------------NAVBAR-----DROPDOWN----------------->
+			<!------------------------NAVBAR-----DROPDOWN----------------->
+
+ 
+
+<nav class="navbar navbar-expand-lg  navbar-dark bg-gradient  sticky-top" id="as">
+ <div class="container-fluid">
+ <a class="navbar-brand ms-5" href="#"><img id="brand" src="../Images/web-logo.png"></a>
+ <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarnav">
+     <ul class="navbar-nav ms-auto text-center  mb-2 mb-lg-1 me-lg-5">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="../Index page.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../About Us.html">About</a>
+        </li>
+       
+       
+  		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="btn" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Project
+          </a>  
+          <ul  class="dropdown-menu bg-light  mt-4" aria-labelledby="btn" id="one">
+            <li class="drop"><a class="dropdown-item  fw-bold" href="Bahria Town Karachi.html">Bahria Town Karachi</a></li>
+            <li class="drop"><a class="dropdown-item  fw-bold" href="ARY.html">Ary Laguna Dha City</a></li>
+            <li class="drop"><a class="dropdown-item  fw-bold" href="Gulberg Greens Islamabad.html">Gulberg Green Islamabad</a></li>
+         	<li class="drop"><a class="dropdown-item  fw-bold" href="Lake City Lahore.html">Lake City Lahore</a></li>
+         	<li class="drop"><a class="dropdown-item  fw-bold" href="Blue Would city.html">Blue World City</a></li>
+          </ul>
+        </li>
+      
+ 
+        <li class="nav-item">
+          <a class="nav-link" href="../Videos.html">Video</a>
+       </li>
+     
+        <li class="nav-item">
+          <a class="nav-link" href="../Images.html">Images</a>
+       </li>
+		 <li class="nav-item">
+          <a class="nav-link" href="../Contact.html">Contact Us</a>
+       </li>
+
+<!-- Click on Modal Button -->
+
+<a class="nav-link" href=""<button type="submit" class=" text-white" data-bs-toggle="modal" data-bs-target="#modalForm" style="background-color:transparent; border:none;line-height:15px; font-weight:bold;text-transform:uppercase;font-size:16px;margin:10px;">
+    Sign In
+</button></a>
+    
+
+
+<li class="nav-item" style="color:#FFF; font-size:20px; cursor:pointer">     
+ <a class="nav-link"><i class="fas fa-sun text-white" onClick="myFunction()"  id="sun"></i>
+<i class="fas fa-moon text-white-50" onClick="myFunction()" id="moon"></i>
+</a></li>
+
+
+
+
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- Modal -->
+<div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content  bg-dark">
+           
+            
+            
+            
+            <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h5 class="modal-title m-auto d-block " id="exampleModalLabel" style="font-size:20px;font-style:oblique; text-align:center; color:#FFF">Welcome to</br> Dream Land Marketing!</br> Please Sign In</h5>
+                 
+                
+  
+            
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label text-white-50">Phone Number or Email*</label>
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Please Enter Your Phone Number or Email" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-white-50">Password*</label>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Please Enter Your Password" />
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="rememberMe" />
+                        <label class="form-check-label text-white-50" for="rememberMe">Remember me</label>
+                    </div>
+                    <div class="modal-footer d-block">
+                        <p class="float-start text-white-50">Not yet account <a href="#">Sign Up</a></p>
+                        <button type="submit" class="btn btn-outline-light float-end">Sign In</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="carousel-inner w-100">
+
+<video width="100%" autoplay muted loop><source src="../Slider Video/Video Advertisements – Lake City.mkv" >
+</source></video>
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+<div class="container" style="margin-top:80px; margin-bottom:80px;">
+<div class="row">
+
+<div class="col-lg-6 col-md-6 wow animated fadeInRight" style="animation-delay:0.4s">
+</br></br>
+<p class="text-center text-warning" style="color:#0c3; font-weight:bold; font-size:45px;">WELCOME TO LAKE CITY</p>
+<h4 class="text-center" style="font-weight:bold; font-size:25px;">WHERE ALL ROADS LEAD TO HOME!</h4>
+</br>
+<p style="font-size:20px;line-height:30px;text-align:center">Far from the madding crowd, yet so close to the vicinity of Lahore, Lake City’s supreme location brings the best of both worlds. Enjoy serenity and seclusion along with sophistication and amenities of an exclusive lifestyle within the secure environs of a gated community!</p>
+</div>
+
+<div class="col-lg-6 col-md-6 wow animated fadeInLeft" style="animation-delay:0.6s">
+<img src="../new image/3d-logo.png" class="img-fluid m-auto d-block">
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="container">
+<div class="row">
+
+
+<div class="col-lg-4 col-md-4 mb-4 wow animated fadeInUp" style="animation-delay:0.5s">
+    <div class="hovereffect">
+    <div class="card border border-dark">
+    <img src="../new image/al_ghafoor_grande_tower_27542.png" class="card-img-top" alt="..."style="height:300px;" id="lake-city-card">
+    
+    <div class="overlay">
+   </br></br>
+    <h1 style="text-align:center;font-size:29px;font-weight:bold; color:#FFF">LAKE CITY APARTMENT </h1>
+	
+    </div>
+    
+    </div>
+    </div>
+    </div>  
+
+
+<div class="col-lg-4 col-md-4 mb-4 wow animated fadeInUp" style="animation-delay:0.6s">
+    <div class="hovereffect">
+    <div class="card border  border-dark">
+<img src="../new image/maxresdefault.jpg" class="card-img-top" alt="..."  style="height:300px;" id="lake-city-card">
+<div class="overlay">
+</br></br>
+ <h1 style="text-align:center;font-size:29px;font-weight:bold; color:#FFF">LAKE CITY HOUSE </h1>
+	
+    </div>
+    
+    </div>
+    </div>
+    </div> 
+	
+    
+    
+<div class="col-lg-4 col-md-4 mb-4 wow animated fadeInUp" style="animation-delay:0.7s">
+    <div class="hovereffect">
+    <div class="card border   border-dark">
+    <img src="../new image/_MMC0397.jpg" class="card-img-top " alt="..." style="height:300px;" id="lake-city-card"> 
+    <div class="overlay">
+</br></br>
+    <h1 style="text-align:center;font-size:29px;font-weight:bold; color:#FFF">LAKE CITY BEACH VILLA </h1>
+	
+    </div>
+    
+    </div>
+    </div>
+    </div>  
+
+
+
+ 
+
+</div>
+</div>  
+
+
+<div class="container">
+<div class="row">
+
+<div class="col-lg-6 col-md-6 mb-4 wow animated fadeInRight" style="animation-delay:0.8s">
+    <div class="hovereffect">
+   <div class="card border  border-dark">
+<img src="../new image/170920144611-golf-resorts-broadmoor-exlarge-169.jpg" class="card-img-top" alt="..." style="height:500px" id="lake-city-card">
+    
+    <div class="overlay">
+    </br></br></br></br>
+    <h1 class="text-white">GOLF ESTATES (GOLF VIEW/BACK YARD GOLF) </h1>
+	
+    </div>
+    
+    </div>
+    </div>
+    </div> 
+
+
+
+
+<div class="col-lg-6 col-md-6 mb-4 wow animated fadeInLeft" style="animation-delay:0.9s">
+    <div class="hovereffect">
+    <div class="card border   border-dark">
+    <img src="../new image/Slide1-1.jpg" class="card-img-top " alt="..." style="height:500px;" id="lake-city-card">
+    
+    <div class="overlay">
+    </br></br></br></br>
+    <h1 class="text-white">THE LARGEST RESIDENTIAL MALL IN PAKISTAN</h1>
+	
+    </div>
+    
+    </div>
+    </div>
+    </div> 
+
+</div>
+</div>  
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid bg-gradient" style="background-color:#000; margin-bottom:80px; margin-top:50px;" id="services">
+<div class="row">
+<div class="col-lg-12">   
+</br></br>
+<h1 class="text-center text-warning fst-italic;">Property Features & Amenities of </br>Lake City Lahore</h1>
+
+</br></br>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="container ">
+<div class="row">
+
+<div class="col-lg-4 col-md-4 wow animated fadeInUp" style="animation-delay:0.4s">
+<i class="fas fa-search-location" style="text-align:center;font-size:36px; margin:auto; display:block;"></i>
+</br>
+<h5 class="text-center" style="font-size:24px;">Beautiful Location</h5>
+<p style="text-align:center">Lahore Smart City is situated in a beautiful hilly area that is surrounded by greenery. You can enjoy breathtaking sunsets and a peaceful environment while remaining in proximity with the main city.</p>
+</div>
+
+<div class="col-lg-4 col-md-4 wow animated fadeInUp" style="animation-delay:0.5s">
+<i class="fas fa-check-circle" style="text-align:center;font-size:36px;margin:auto; display:block;"></i>
+</br>
+<h5 class="text-center" style="font-size:24px;">LDA Approved Society</h5>
+<p style="text-align:center">LSC NOC has been duly approved by the LDA, and it is considered to be one of the top legal housing societies in Lahore. You can buy plots in LSC and secure your future.</p>
+</div>
+
+<div class="col-lg-4 col-md-4 wow animated fadeInUp" style="animation-delay:0.6s">
+<i class="fas fa-lock" style="text-align:center;font-size:36px; margin:auto; display:block;"></i>
+</br>
+<h5 class="text-center" style="font-size:24px;">High-Tech Security Mechanism</h5>
+<p style="text-align:center">For security across LSC, there is a high-tech mechanism of reliable video surveillance, installed throughout the society in order to meet the security needs of its visitors and residents.</p>
+</div> 
+
+
+<div class="col-lg-4 col-md-4 wow animated fadeInUp" style="animation-delay:0.7s">
+<i class="fas fa-bolt" style="text-align:center;font-size:36px; margin:auto; display:block;"></i>
+</br>
+<h5 class="text-center" style="font-size:24px;">Underground Electricity</h5>
+<p style="text-align:center">As load shedding or power shortages are considered to be a major threat to businesses across the country, LSC has an underground electricity system, which are is backed up with generators to keep the power on.</p>
+</div>
+
+<div class="col-lg-4 col-md-4 wow animated fadeInUp" style="animation-delay:0.8s">
+<i class="fas fa-road" style="text-align:center;font-size:36px; margin:auto; display:block;"></i>
+</br>
+<h5 class="text-center" style="font-size:24px;">Wide Roads & Main Boulevard</h5>
+<p style="text-align:center">The LSC main boulevard is a massive 200-feet long one which is considered to be one of the largest and iconic structures in the housing society. With beautiful greenery on the side, a refreshing outlook is imparted.</p>
+</div>
+
+
+<div class="col-lg-4 col-md-4 wow animated fadeInUp" style="animation-delay:0.9s">
+<i class="fas fa-university" style="text-align:center;font-size:36px; margin:auto; display:block;"></i>
+</br>
+<h5 class="text-center" style="font-size:24px;">Educational Institutes</h5>
+<p style="text-align:center">LSC seeks to provide residents with quality educational institutes inside its premises. The management, including the owners, are contacting multiple small- and large-scale educational institutes for this purpose.</p>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="container" style="margin-top:60px;">
+<div class="row">
+
+<div class="col-lg-4 col-md-6 pb-4">
+  <iframe width="100%" height="315" id="lake-city-videos" src="https://www.youtube.com/embed/_bA1NfHL7ug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+</div>
+
+<div class="col-lg-4 col-md-6 pb-4">
+<iframe width="100%" height="315" id="lake-city-videos" src="https://www.youtube.com/embed/8SCpOaWDgYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="col-lg-4 col-md-6 pb-4">
+<iframe width="100%" height="315"  id="lake-city-videos" src="https://www.youtube.com/embed/v69-q8PRl9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+
+<div class="col-lg-4 col-md-6 pb-4">
+<iframe width="100%" height="315"  id="lake-city-videos" src="https://www.youtube.com/embed/MVBWP070mtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="col-lg-4 col-md-6 pb-4">
+<iframe width="100%" height="315" id="lake-city-videos" src="https://www.youtube.com/embed/GeD9TdYHORg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div>
+
+<div class="col-lg-4 col-md-6 pb-4">
+<iframe width="100%" height="315" id="lake-city-videos" src="https://www.youtube.com/embed/Ps8CiLtKKV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div>
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+<div class="container-fluid" style=" margin-top:50px; margin-bottom:50px;">
+<div class="row">
+
+<div class="col-lg-6 mb-5">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19273.158452071864!2d74.24283554652474!3d31.357730263902443!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919aa91e49da6af%3A0xc134fd8552b3464d!2sLake+City%2C+Lahore%2C+Pakistan!5e0!3m2!1sen!2s!4v1457507838053" height="100%" width="100%" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+</div>
+
+<div class="col-lg-6 mb-5">
+<img src="../new image/New-Payment-Schedule-M8-Block-C-min.jpg"  class="img-fluid   m-auto d-block" style="width:100%; height:100%;">
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid" style="background-image:url(../New%20folder/Huge-Backgrounds-17.jpg);background-size:cover; padding:40px;">
+<div class="container p-5">
+<div class="row">
+
+<div class="col-lg-6 " style="text-shadow: 2px 2px 4px #000000;">
+<br/><br/><br/>
+<h1 style="font-size:50px;text-align:center;font-family:Times New Roman;color:#0FF;">WE ARE READY TO SERVE YOU </h1></br>
+
+<br/>
+<p style="font-size:28px;font-weight:bold;color:#FFF; text-align:center">WE ARE 24/7 AVAILABLE</p>
+<h4 class="text-warning text-center">051-8358749</h4></br>
+<button type="button" class="btn  btn-outline-light  ps-5 pt-2 pb-2 pe-5 fw-bold m-auto  rounded-pill d-block text-center" style="color:#000;" >Contact Us</button>
+
+</div>
+
+
+
+
+<div class="col-lg-6 bg-white p-5" id="imgs">
+
+<p style="font-size:30px;font-weight:bold;color:#000">Book Your Plot ONLINE & Get Exciting Discounts!</p>
+<form>
+<input type="text" name="text" placeholder="Your Name" required class="form-control   p-3 mb-2">
+
+<input type="email" name="email" placeholder="E-mail" required class="form-control   p-3 mb-2">
+
+<input type="number" name="number" placeholder="Your Number" required class="form-control  p-3 mb-2">
+
+<button type="submit"  class="form-control btn btn-outline-dark  w-100 p-3 mb-2 fw-bold">SUBMIT</button> </form>
+</div>
+
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="container-fluid bg-gradient" style="background-color:#333; color:#FFF;">
+<div class="row">
+
+<div class="col-xl-3 col-lg-3 col-12 pt-4">
+<img  src="../Images/web-logo.png">
+<p class="footer container">We deal in a number of societies that have an exponential increase in terms of Development, Profitability, and Living Standards.</p>
+
+
+<div class="d-flex">
+<a href="#" class="social-icon1"><img src="../New folder/facebok.gif" style="width:30px;height:30px;"> </a>
+<a href="#" class="social-icon1"><img src="../New folder/twitter.gif" style="width:30px;height:30px;"> </a>
+<a href="#" class="social-icon1"><img src="../New folder/-instagram.gif" style="width:30px;height:30px;"> </a>
+<a href="#" class="social-icon1"><img src="../New folder/snapechart (2).gif" style="width:30px;height:30px;"> </a>
+</div>
+
+
+	
+</div>   
+
+
+
+
+
+<div class="col-xl-3 col-lg-3 col-12 p-5 lh-1"> 	
+<h5  class="text-start pb-3">QUICK LINKS</h5>
+
+<p class="text-start"><i class="fas fa-caret-right" id="head-footer-icon"></i><a href="../Index page.html" class="text-decoration-none text-white">    &nbsp;Home</a></p>
+<p class="text-start"><i class="fas fa-caret-right" id="head-footer-icon"></i><a href="../About Us.html" class="text-decoration-none text-white">    &nbsp;About</a></p>
+<p class="text-start"><i class="fas fa-caret-right" id="head-footer-icon"></i><a href="../Videos.html" class="text-decoration-none text-white">	&nbsp;Videos</a></p>
+<p class="text-start"><i class="fas fa-caret-right" id="head-footer-icon"></i><a href="../Images.html" class="text-decoration-none text-white">    &nbsp;Images</a></p>
+<p class="text-start"><i class="fas fa-caret-right" id="head-footer-icon"></i><a href="../Contact.html" class="text-decoration-none text-white">    &nbsp;Contact</a></p>
+
+</div>
+
+
+
+
+
+
+<div class="col-xl-3 col-lg-3 col-12  p-5 lh-1">
+<h5 class="text-start pb-3">OUR PROJECTS</h5>
+<p class="text-start"><i class="fas fa-caret-right" id="head-footer-icon"></i><a href="ARY.html" class="text-decoration-none text-white">&nbsp;Ary Laguna Dha City</a></p>
+<p class="text-start"><i class="fas fa-caret-right" id="head-footer-icon"></i><a href="Bahria Town Karachi.html" class="text-decoration-none text-white">&nbsp;Bahria Town Karachi</a></p>
+<p class="text-start"><i class="fas fa-caret-right" id="head-footer-icon"></i><a href="Gulberg Greens Islamabad.html" class="text-decoration-none text-white">&nbsp;Gulberg Green Islamabad</a></p>
+<p class="text-start"><i class="fas fa-caret-right" id="head-footer-icon"></i><a href="Blue Would city.html" class="text-decoration-none text-white">&nbsp;Blue World City</a></p>
+<p class="text-start"><i class="fas fa-caret-right" id="head-footer-icon"></i><a href="Lake City Lahore.html" class="text-decoration-none text-white">&nbsp;Lake City Islamabad</a></p>
+
+</div>
+
+
+
+
+<div class="col-xl-3 col-lg-3 col-12  p-5">
+<h5 class="text-start pb-3">GET IN TOUCH</h5>
+<p class="text-start"><i class="fas fa-phone" id="head-footer-icon"></i><a href="#" class="text-decoration-none text-white"> +92-3348060318</a></p>
+<p class="text-start"><i class="fas fa-map-marker-alt" id="head-footer-icon"></i> <a href="#" class="text-decoration-none text-white">&nbsp; B-2 Executive Suites, F-11 Markaz, Islamabad</a></p>
+<p class="text-start"><i class="fas fa-envelope" id="head-footer-icon"></i> <a href="#" class="text-decoration-none text-white">&nbsp;arain@dreamlandmkt.com</a></p>
+</div>
+</div>
+</div>
+
+<div class="container-fluid bg-dark">
+<div class="row bg-dark">
+
+<div class=" col-lg-3  col-md-3 col-12 p-4">
+<i class="fas fa-box-open" style="font-size:28px" id="head-footer-icon"></i>
+<span class="" style="font-size:19px;font-weight:bold;color:#FFF;">OUR NEWSLETTER</span>
+</div>
+
+<div class="col-lg-5 col-md-5 col-12  p-4">
+<div class="input-group flex-nowrap">
+
+<input type="email" style="border-radius:100px; outline:none" class="form-control" placeholder="E-mail Address">
+&nbsp;<form><button type="submit" style="border-radius:100px; font-size:14px;font-weight:bold;" class="btn btn-outline-warning">SUBSCRIBE NOW</button>
+</form>
+</div>
+</div>
+
+
+<div class="col-lg-4 col-md-4  col-12   text-white p-4">
+<p class="text-center">© Copyright 2021.
+Powered By: Dream Land Real Estate Marketing Pvt Ltd.</p>
+</div>
+
+
+</div>
+</div>
+
+<script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+<script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+<script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+<script src="js/scripts.js"></script> <!-- Custom scripts -->
+
+
+
+
+</body>
+</html>
+
+
+
+
